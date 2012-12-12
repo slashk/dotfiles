@@ -1,0 +1,15 @@
+# Initially setup new machine for dotfiles and such
+
+# virtualenv
+easy_install pip
+pip virtualenv
+
+# dotfiles
+pip install dotfiles
+git clone https://github.com/slashk/dotfiles.git Dotfiles
+
+# RVM
+curl -L https://get.rvm.io | bash -s stable --ruby
+
+# vim spf13
+curl http://j.mp/spf13-vim3 -L -o - | sh
