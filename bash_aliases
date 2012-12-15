@@ -13,3 +13,8 @@ alias bt='bzr top'
 
 # apt-get updates
 alias up='sudo apt-get update; sudo apt-get dist-upgrade'
+
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
