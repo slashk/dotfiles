@@ -7,6 +7,7 @@ pip install virtualenv
 # dotfiles
 pip install dotfiles
 git clone https://github.com/slashk/dotfiles.git Dotfiles
+dotfiles --sync
 
 # RVM
 curl -L https://get.rvm.io | bash -s stable --ruby
